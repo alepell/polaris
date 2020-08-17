@@ -12,7 +12,7 @@ export const LogoPolaris = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 20px;
   h1 {
     font-family: 'Cinzel';
     color: #262626;

@@ -4,8 +4,6 @@ export const TopBar = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 0;
   width: 100%;
   color: #fafafa;
   background-color: #2b4748;
