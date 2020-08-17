@@ -7,7 +7,7 @@ function Cover() {
   return (
     <Container>
       <img src={cover} alt="" />
-      <p>"As mulheres são como as àguas, crescem quando se encontram."</p>
+      <p>"As mulheres são como as águas, crescem quando se encontram."</p>
     </Container>
   );
 }
