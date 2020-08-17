@@ -12,6 +12,9 @@ export const TopBar = styled.div`
   font-weight: 300;
   padding: 10px;
   z-index: 12;
+  @media (max-width: 411px) {
+    font-size: 0.6rem;
+  }
   @media (max-width: 375px) {
     font-size: 0.6rem;
   }
@@ -25,9 +28,15 @@ export const InstagramLink = styled.a`
   display: flex;
   img {
     margin-left: 5px;
+    @media (max-width: 411px) {
+      margin-top: -3px;
+    }
     @media (max-width: 375px) {
       margin-top: -3px;
     }
+  }
+  @media (max-width: 411px) {
+    margin-top: 9px;
   }
   @media (max-width: 375px) {
     margin-top: 9px;
